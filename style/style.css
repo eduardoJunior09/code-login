@@ -49,6 +49,7 @@ main {
   margin: 20px 0;
   display: flex;
   gap: 20px;
+  cursor: pointer;
 }
 
 .opcoes p {
@@ -60,27 +61,52 @@ main {
 }
 
 .recuperar-senha:hover {
-  cursor: pointer;
   transition: 1s ease-in-out;
   transform: scale(1.1);
 }
 
-
-.butoes{
-    display: flex;
-    flex-direction: column;
+.botoes {
+  display: flex;
+  flex-direction: column;
 }
 
-.botao{
-    margin: 10px 0;
-    width: 300px;
-    height: 30px;
-    border-radius: 3px;
-    border: none;
-    outline: none;
+.botao {
+  margin: 10px 0;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.botao-entrar{
-    background-color: #1e9e6a;
-    color: #ffffff;
+.botao-entrar {
+  font-weight: bold;
+  background-color: #1e9e6a;
+  color: #ffffff;
+}
+.botao-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: black;
+  color: #ffffff;
+}
+.botao-google img {
+  width: 18px;
+}
+
+footer{
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer span{
+  cursor: pointer;
+  font-weight: bold;
+  color: #1e9e6a;
 }

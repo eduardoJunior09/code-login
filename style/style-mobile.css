@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .container-img {
+    display: none;
+  }
+
+  .container-login {
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 465px) {
+  .container-login {
+    padding: 20px;
+  }
+  .header-login {
+    margin-bottom: 10px;
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .input-login p {
+    font-size: 14px;
+  }
+
+  .input {
+    width: 280px;
+    height: 25px;
+  }
+
+  .opcoes {
+    margin: 15px 0;
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .botao {
+    width: 280px;
+    height: 30px;
+  }
+
+  footer{
+    font-size: 15px;
+  }
+}
